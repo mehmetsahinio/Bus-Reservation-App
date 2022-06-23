@@ -1,0 +1,92 @@
+﻿@model ListCityİnfo
+<main class="main">
+    <section class="w3l-main-slider" id="home">
+        <div class="banner-content">
+            <div id="demo-1"
+                 data-zs-src='["assets/images/banner1.jpg", "assets/images/banner2.jpg","assets/images/banner3.jpg", "assets/images/banner4.jpg"]'
+                 data-zs-overlay="dots">
+                <div class="demo-inner-content">
+                    <div class="container">
+
+                        <div class="banner-infhny">
+                            <h3>Otobüs hayattır.</h3>
+                            <h6 class="mb-3">Karayolu</h6>
+                            <div class="flex-wrap search-wthree-field mt-md-5 mt-4">
+                                <form asp-controller="Home" asp-action="ExpeditionList" method="post" class="booking-form">
+                                    <div class="row book-form">
+                                        <div class="form-input col-md-3 mt-md-0">
+
+                                            <select asp-for="startCity" class="selectpicker" asp-items="@ViewBag.Cities">
+                                                <option selected disabled>Nerden</option>
+
+                                            </select>
+                                        </div>
+                                        <div class="form-input col-md-3 mt-md-0">
+
+                                            <select asp-for="finishCity" class="selectpicker" asp-items="@ViewBag.Cities">
+                                                <option selected disabled>Nereye</option>
+
+                                            </select>
+
+                                        </div>
+
+                                        <div class="form-input col-md-3 mt-md-0">
+
+                                            <input type="date" asp-for="Date">
+                                        </div>
+
+                                        <div class="bottom-btn col-md-3 mt-md-0">
+                                            <button type="submit" class="btn btn-style btn-secondary " >
+                                                <span class="fa fa-search mr-3"
+                                                      aria-hidden="true"></span> Ara
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="w3l-grids-3 py-5">
+        <div class="container py-md-5">
+            <div class="title-content text-left mb-lg-5 mb-4">
+                <h6 class="sub-title">Visit</h6>
+                <h3 class="hny-title">Popular Destinations</h3>
+            </div>
+            <div class="row bottom-ab-grids">
+
+                @foreach (var item in Model.Cities)
+                {
+
+                    <div class="col-lg-6 subject-card mt-lg-0 mt-4">
+                        <div class="subject-card-header p-4">
+                            <a href="#" class="card_title p-lg-4d-block">
+                                <div class="row align-items-center">
+                                    <div class="col-sm-5 subject-img">
+                                        <img src="~/img/@item.ImgUrl" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="col-sm-7 subject-content mt-sm-0 mt-4">
+                                        <h4>@item.CityNumber §§ @item.CityName</h4>
+                                        <p>@item.CityAbout</p>
+                                        <div class="dst-btm">
+                                            <h6 class=""> Start From </h6>
+                                            <span>$1650</span>
+                                        </div>
+                                        <p class="sub-para">Per person on twin sharing</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                }
+            </div>
+
+        </div>
+    </section>
+
+</main>

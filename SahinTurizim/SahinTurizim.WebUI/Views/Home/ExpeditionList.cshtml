@@ -1,0 +1,35 @@
+﻿@model ListCityInfoTicket
+    <h3 class="mt-5">Seferler</h3>
+    <h3 class="mt-5 d-flex justify-content-center mt-3 align-items-center">Seferler</h3>
+
+    @foreach (var item in Model.Expeditions)
+    {
+        <div class="row d-flex  justify-content-center mt-3 align-items-center ms-5 w-75">
+            <div class="col-md-4"></div>
+            <div class="col-md-6 justify-content-center lign-items-center">
+                <table class="table justify-content-center align-items-center ">
+                    <thead class=" ">
+                        <tr>
+                            <th scope="col">@item.StartTerminal</th>
+
+                            <th scope="col">@item.EndTerminal</th>
+                            <th scope="col">2+1</th>
+                            <th scope="col">@item.Hour</th>
+                            <th scope="col">@item.Date</th>
+
+
+                        </tr>
+                    </thead>
+                   
+                </table>
+            </div>
+            <div class="col-md-2 w-100">
+                <a asp-controller="Home" asp-action="TicketSale" asp-route-id="@item.ExpeditionId" type="submit" class="btn btn-info m-0">
+                    <i class="fa-solid fa-angle-down"></i> Sefer Seç
+                </a>
+            </div>
+
+        </div>
+
+
+    }
