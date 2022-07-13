@@ -8,7 +8,7 @@
         <h1>@Model.StartTerminal- @Model.EndTerminal</h1>
     </div>
     <div class="card-body">
-        <form asp-controller="Home" asp-action="TicketSales" method="post">
+        <form asp-controller="Home" asp-action="TicketSale" method="post">
             <div class="row no-gutters">
 
                 <div class="col-md-8">
@@ -16,7 +16,7 @@
                     <p><b>Route: </b> @Model.StartTerminal > @Model.FirstTerminal > @Model.SecondTerminal > @Model.ThirdTerminal > @Model.EndTerminal</p>
                     <p>@Model.Date  -  @Model.Hour</p>
                     <br />
-                    <p>Dolu koltuk sayısı: @ViewBag.seatNumbers</p>
+                    <p>Dolu koltuk sayısı: @ViewBag.SeatNumber</p>
 
                 </div>
 
@@ -39,6 +39,7 @@
                             </select>
                         </div>
                     </div>
+                <input type="hidden"  name="startLocation" value="@Model.StartTerminal"/>
                     <button type="submit" class="btn btn-danger w-25 offset-8">Book Ticket</button>
                     <br />
                 </div><br />

@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hyCEEDkQ3i8SCFZSWmVdkHGE8Y/LbpsgPNWO1xJNKevAd6VBmrrH8L2Ym9pAPBNm5nGGR9zCJMHYG7rSqobzUg==",
+  "dgSpecHash": "BQNVPqOpZTt8V5zKt1EKophe4OlgaJQoNt//J1UhCspLma+NcXV4P/X2nqwzWXv8BrWQxHUDdxylE528/TQq+Q==",
   "success": true,
-  "projectFilePath": "/Users/mehmetsahin/Desktop/Bus/SahinTurizim/SahinTurizim.Entity/SahinTurizim.Entity.csproj",
-  "expectedPackageFiles": [
-    "/Users/mehmetsahin/.nuget/packages/microsoft.netcore.app.ref/5.0.0/microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
-    "/Users/mehmetsahin/.nuget/packages/microsoft.aspnetcore.app.ref/5.0.0/microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"
-  ],
+  "projectFilePath": "/Users/mehmetsahin/Desktop/Buss/SahinTurizim/SahinTurizim.Entity/SahinTurizim.Entity.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "D+6nlCzP9yvcZx8HE91oh1xbjw69bO/zB0pHlfajw9czxNk5tQGHWZXY2jO1Qozz69KUaHiI/6D5qQFNQxhGlA==",
+  "dgSpecHash": "MkNehwaomDy3x4Brm9IMg9aX+XxeHnbVMp16Grafkvg8IPfTvCRryOXt7QjaJk+yMOepb/qpsjXG/q4J88kolg==",
   "success": true,
-  "projectFilePath": "/Users/mehmetsahin/Desktop/Bus/SahinTurizim/SahinTurizim.WebUI/SahinTurizim.WebUI.csproj",
+  "projectFilePath": "/Users/mehmetsahin/Desktop/Buss/SahinTurizim/SahinTurizim.WebUI/SahinTurizim.WebUI.csproj",
   "expectedPackageFiles": [
     "/Users/mehmetsahin/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/mehmetsahin/.nuget/packages/microsoft.aspnetcore.cryptography.internal/5.0.16/microsoft.aspnetcore.cryptography.internal.5.0.16.nupkg.sha512",
@@ -41,10 +41,7 @@
     "/Users/mehmetsahin/.nuget/packages/system.componentmodel.annotations/5.0.0/system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "/Users/mehmetsahin/.nuget/packages/system.diagnostics.diagnosticsource/5.0.1/system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512",
     "/Users/mehmetsahin/.nuget/packages/system.io.pipelines/5.0.2/system.io.pipelines.5.0.2.nupkg.sha512",
-    "/Users/mehmetsahin/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
-    "/Users/mehmetsahin/.nuget/packages/microsoft.netcore.app.ref/5.0.0/microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
-    "/Users/mehmetsahin/.nuget/packages/microsoft.aspnetcore.app.ref/5.0.0/microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
-    "/Users/mehmetsahin/.nuget/packages/microsoft.netcore.app.host.osx-x64/5.0.17/microsoft.netcore.app.host.osx-x64.5.0.17.nupkg.sha512"
+    "/Users/mehmetsahin/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512"
   ],
   "logs": []
 }

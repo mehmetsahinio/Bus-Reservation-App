@@ -48,14 +48,14 @@ namespace SahinTurizim.WebUI.Controllers
             return View(listCityInfoTicket);
         }
 
-      /*  public IActionResult TicketSale(int id)
+        public IActionResult TicketSale(int id)
         {
 
             Expedition expedition = _expeditionService.GetExpeditionDetails(id);
             int seatNumber = _ticketService.GetSeatNumber(id);
             List<int> takenSeat = _ticketService.GetSeat(id);
             List<int> seatNumbers = new List<int>();
-            int seats = _busService.GetSeatCapacity(id / id);
+            int seats = _busService.GetSeatCapacity(id/id);
 
             for (int i = 1; i <= seats; i++)
             {
@@ -109,6 +109,6 @@ namespace SahinTurizim.WebUI.Controllers
                 ticket = lastTicket
             };
             return View(routeTicket);
-        }*/
+        }
     }
 }

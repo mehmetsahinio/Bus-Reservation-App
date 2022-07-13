@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/mehmetsahin/Desktop/Bus/SahinTurizim/SahinTurizim.Business/SahinTurizim.Business.csproj": {}
+    "/Users/mehmetsahin/Desktop/Buss/SahinTurizim/SahinTurizim.Business/SahinTurizim.Business.csproj": {}
   },
   "projects": {
-    "/Users/mehmetsahin/Desktop/Bus/SahinTurizim/SahinTurizim.Business/SahinTurizim.Business.csproj": {
+    "/Users/mehmetsahin/Desktop/Buss/SahinTurizim/SahinTurizim.Business/SahinTurizim.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mehmetsahin/Desktop/Bus/SahinTurizim/SahinTurizim.Business/SahinTurizim.Business.csproj",
+        "projectUniqueName": "/Users/mehmetsahin/Desktop/Buss/SahinTurizim/SahinTurizim.Business/SahinTurizim.Business.csproj",
         "projectName": "SahinTurizim.Business",
-        "projectPath": "/Users/mehmetsahin/Desktop/Bus/SahinTurizim/SahinTurizim.Business/SahinTurizim.Business.csproj",
+        "projectPath": "/Users/mehmetsahin/Desktop/Buss/SahinTurizim/SahinTurizim.Business/SahinTurizim.Business.csproj",
         "packagesPath": "/Users/mehmetsahin/.nuget/packages/",
-        "outputPath": "/Users/mehmetsahin/Desktop/Bus/SahinTurizim/SahinTurizim.Business/obj/",
+        "outputPath": "/Users/mehmetsahin/Desktop/Buss/SahinTurizim/SahinTurizim.Business/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/mehmetsahin/.nuget/NuGet/NuGet.Config"
+          "/Users/mehmetsahin/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -26,11 +26,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "/Users/mehmetsahin/Desktop/Bus/SahinTurizim/SahinTurizim.Data/SahinTurizim.Data.csproj": {
-                "projectPath": "/Users/mehmetsahin/Desktop/Bus/SahinTurizim/SahinTurizim.Data/SahinTurizim.Data.csproj"
+              "/Users/mehmetsahin/Desktop/Buss/SahinTurizim/SahinTurizim.Data/SahinTurizim.Data.csproj": {
+                "projectPath": "/Users/mehmetsahin/Desktop/Buss/SahinTurizim/SahinTurizim.Data/SahinTurizim.Data.csproj"
               },
-              "/Users/mehmetsahin/Desktop/Bus/SahinTurizim/SahinTurizim.Entity/SahinTurizim.Entity.csproj": {
-                "projectPath": "/Users/mehmetsahin/Desktop/Bus/SahinTurizim/SahinTurizim.Entity/SahinTurizim.Entity.csproj"
+              "/Users/mehmetsahin/Desktop/Buss/SahinTurizim/SahinTurizim.Entity/SahinTurizim.Entity.csproj": {
+                "projectPath": "/Users/mehmetsahin/Desktop/Buss/SahinTurizim/SahinTurizim.Entity/SahinTurizim.Entity.csproj"
               }
             }
           }
@@ -60,36 +60,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.105/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/mehmetsahin/Desktop/Bus/SahinTurizim/SahinTurizim.Data/SahinTurizim.Data.csproj": {
+    "/Users/mehmetsahin/Desktop/Buss/SahinTurizim/SahinTurizim.Data/SahinTurizim.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mehmetsahin/Desktop/Bus/SahinTurizim/SahinTurizim.Data/SahinTurizim.Data.csproj",
+        "projectUniqueName": "/Users/mehmetsahin/Desktop/Buss/SahinTurizim/SahinTurizim.Data/SahinTurizim.Data.csproj",
         "projectName": "SahinTurizim.Data",
-        "projectPath": "/Users/mehmetsahin/Desktop/Bus/SahinTurizim/SahinTurizim.Data/SahinTurizim.Data.csproj",
+        "projectPath": "/Users/mehmetsahin/Desktop/Buss/SahinTurizim/SahinTurizim.Data/SahinTurizim.Data.csproj",
         "packagesPath": "/Users/mehmetsahin/.nuget/packages/",
-        "outputPath": "/Users/mehmetsahin/Desktop/Bus/SahinTurizim/SahinTurizim.Data/obj/",
+        "outputPath": "/Users/mehmetsahin/Desktop/Buss/SahinTurizim/SahinTurizim.Data/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/mehmetsahin/.nuget/NuGet/NuGet.Config"
+          "/Users/mehmetsahin/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -101,8 +91,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "/Users/mehmetsahin/Desktop/Bus/SahinTurizim/SahinTurizim.Entity/SahinTurizim.Entity.csproj": {
-                "projectPath": "/Users/mehmetsahin/Desktop/Bus/SahinTurizim/SahinTurizim.Entity/SahinTurizim.Entity.csproj"
+              "/Users/mehmetsahin/Desktop/Buss/SahinTurizim/SahinTurizim.Entity/SahinTurizim.Entity.csproj": {
+                "projectPath": "/Users/mehmetsahin/Desktop/Buss/SahinTurizim/SahinTurizim.Entity/SahinTurizim.Entity.csproj"
               }
             }
           }
@@ -142,36 +132,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.105/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/mehmetsahin/Desktop/Bus/SahinTurizim/SahinTurizim.Entity/SahinTurizim.Entity.csproj": {
+    "/Users/mehmetsahin/Desktop/Buss/SahinTurizim/SahinTurizim.Entity/SahinTurizim.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mehmetsahin/Desktop/Bus/SahinTurizim/SahinTurizim.Entity/SahinTurizim.Entity.csproj",
+        "projectUniqueName": "/Users/mehmetsahin/Desktop/Buss/SahinTurizim/SahinTurizim.Entity/SahinTurizim.Entity.csproj",
         "projectName": "SahinTurizim.Entity",
-        "projectPath": "/Users/mehmetsahin/Desktop/Bus/SahinTurizim/SahinTurizim.Entity/SahinTurizim.Entity.csproj",
+        "projectPath": "/Users/mehmetsahin/Desktop/Buss/SahinTurizim/SahinTurizim.Entity/SahinTurizim.Entity.csproj",
         "packagesPath": "/Users/mehmetsahin/.nuget/packages/",
-        "outputPath": "/Users/mehmetsahin/Desktop/Bus/SahinTurizim/SahinTurizim.Entity/obj/",
+        "outputPath": "/Users/mehmetsahin/Desktop/Buss/SahinTurizim/SahinTurizim.Entity/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/mehmetsahin/.nuget/NuGet/NuGet.Config"
+          "/Users/mehmetsahin/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -204,22 +184,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.105/RuntimeIdentifierGraph.json"
         }
       }
     }

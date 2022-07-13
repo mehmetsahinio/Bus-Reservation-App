@@ -1,19 +1,29 @@
 ﻿<Properties StartupConfiguration="{D600B33E-AF41-40DA-BAA9-C366CBE8E27F}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="SahinTurizim.WebUI/Views/Home/Index.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SahinTurizim.Data/Concrete/EfCore/EfCoreGenericRepository.cs">
     <Files>
-      <File FileName="SahinTurizim.WebUI/Startup.cs" Line="32" Column="48" />
+      <File FileName="SahinTurizim.WebUI/Views/Home/ExpeditionList.cshtml" Line="19" Column="1" />
       <File FileName="SahinTurizim.WebUI/Views/Home/TicketSale.cshtml" />
-      <File FileName="SahinTurizim.WebUI/Program.cs" Line="16" Column="1" />
-      <File FileName="SahinTurizim.WebUI/Views/Home/Index.cshtml" Line="13" Column="54" />
+      <File FileName="SahinTurizim.Data/Concrete/EfCore/EfCoreGenericRepository.cs" Line="18" Column="1" />
+      <File FileName="SahinTurizim.WebUI/Controllers/HomeController.cs" Line="78" Column="23" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="SahinTurizim" expanded="True">
-            <Node name="SahinTurizim.Business" expanded="True">
-              <Node name="Abstract" expanded="True" />
+            <Node name="SahinTurizim.Data" expanded="True">
+              <Node name="Concrete" expanded="True">
+                <Node name="EfCore" expanded="True">
+                  <Node name="EfCoreGenericRepository.cs" selected="True" />
+                </Node>
+              </Node>
             </Node>
-            <Node name="SahinTurizim.WebUI" expanded="True" />
+            <Node name="SahinTurizim.WebUI" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+              </Node>
+            </Node>
           </Node>
         </State>
       </Pad>
